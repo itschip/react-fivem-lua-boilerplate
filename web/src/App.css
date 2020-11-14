@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif,
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif,
+}
+
+.mdt-wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.295);
+}
+
+.mdt-content {
+  margin: auto;
+  width: 1600px;
+  height: 800px;
+  background-size: cover;
+  background:#232323;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.patient-card a {
+  color: #4f9cdb;
+}
+
+.patient-overview * {
+  font-family: 'Montserrat', sans-serif,
+}
