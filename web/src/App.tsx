@@ -1,18 +1,15 @@
-import React from 'react';
-import './App.css';
-import { useNuiService } from './nui-events/hooks/useNuiService';
-
-// show and hide
-import { useVisibility } from './core/hooks/useVisibility';
-import { useCoreService } from './core/hooks/useCoreService';
+import React from "react";
+import "./App.css";
+import useCoreContext from "./core/context/CoreContext";
 
 function App() {
-  const { visibility } = useVisibility()
-  useNuiService();
-  useCoreService();
+  const { visibility } = useCoreContext();
+
   return (
-    <div style={ visibility ? { visibility: 'visible' } : { visibility: 'hidden' }}>
-     {/** Any types of components goes here. Maybe some routing? */}
+    <div
+      style={visibility ? { visibility: "visible" } : { visibility: "hidden" }}
+    >
+      {/** Any types of components goes here. Maybe some routing? */}
     </div>
   );
 }

@@ -1,17 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import { RecoilRoot } from 'recoil';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { CoreContextProvider } from "./core/context/CoreContext";
 
 ReactDOM.render(
   <React.StrictMode>
-    <RecoilRoot>
+    <CoreContextProvider>
       <App />
-    </RecoilRoot>
+    </CoreContextProvider>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
