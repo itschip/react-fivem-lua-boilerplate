@@ -1,8 +1,8 @@
-import { atom } from 'recoil';
+import { atom } from "recoil";
 
 export const coreState = {
-  visibility: atom({
-    key: 'coreStateHidden',
-    default: false
-  })
-}
+  visibility: atom<boolean>({
+    key: "coreStateHidden",
+    default: false,
+  }),
+};
