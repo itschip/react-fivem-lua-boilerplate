@@ -12,6 +12,14 @@ If you have not installed `yarn`, or `node` for that sake, the links are below.
 Yarn: (https://yarnpkg.com/getting-started/install) <br>
 Node: (https://nodejs.org/en/)
 
+## Note
+If you change resource name, change the `resource` to match your resource name.
+```js
+<NuiProvider resource="react-fivem-lua-boilerplate">
+  <App />
+</NuiProvider>
+```
+
 ### Develop
 To open in the browser run ``yarn/npm run start``. 
 
