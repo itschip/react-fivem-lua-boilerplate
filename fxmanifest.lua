@@ -1,4 +1,4 @@
-fxversion "adamant"
+fxversion "cerulean"
 game "gta5"
 
 client_script {
