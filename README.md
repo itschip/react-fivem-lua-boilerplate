@@ -1,5 +1,7 @@
 # A React boilerplate for FiveM, with Lua.
 
+# Note
+This repo is rather deprecated than anyhting. I recommend you use https://github.com/itschip/fivem-react-webpack5 instead.
 
 ## Usage and installation
 To use the boilerplate, clone or download the repo, and add it to your resource folder. 
