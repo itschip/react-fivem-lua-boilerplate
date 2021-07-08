@@ -1,5 +1,10 @@
 # A React boilerplate for FiveM, with Lua.
 
+# Disclaimer
+Use this: https://github.com/project-error/fivem-react-boilerplate-lua
+
+Consider this repo archived and no longer maintained.
+
 # Note
 This repo is rather deprecated than anyhting. I recommend you use https://github.com/itschip/fivem-react-webpack5 instead.
 
